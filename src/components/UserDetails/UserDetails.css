@@ -1,0 +1,25 @@
+.userdetails{
+    background: var(--bg-color);
+    border-radius: var(--border-radius);
+}
+
+.userdetails img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+}
+
+.user__data{
+    
+    max-width: 450px;
+}
+.user__data label{
+   font-size: .8rem;
+}
+
+.user__data__input{
+    background-color: var(--bg-gray);
+    border-radius: var(--border-radius);
+}

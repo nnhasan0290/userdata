@@ -1,0 +1,32 @@
+:root{
+    --bg-gray: #f4f4f4;
+    --font-color: #718096;
+    --bg-color: #fff;
+    --heading-color: #2d3748;
+    --primary-color: #5a67d8;
+    --border-radius: 6px;
+    --border-color: rgba(255, 255, 255, 0.2);
+}
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+
+.main__title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #081828;
+    background-color: #C5DFFF;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: 5px;
+}
