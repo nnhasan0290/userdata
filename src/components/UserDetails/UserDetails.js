@@ -1,5 +1,8 @@
+import Loader from "../Layout/Loader";
 import "./UserDetails.css";
+import { useState } from "react";
 const UserDetails = () => {
+    const [userDetails, setUserDetails] = useState({})
     return(
         <div className="userdetails border p-3">
             <h2 className="main__title"> User Details</h2>
