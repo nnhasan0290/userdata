@@ -23,3 +23,11 @@
     background-color: var(--bg-gray);
     border-radius: var(--border-radius);
 }
+
+.error__message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: red;
+}
