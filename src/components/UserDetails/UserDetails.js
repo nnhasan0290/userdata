@@ -1,6 +1,5 @@
 import Loader from "../Layout/Loader";
 import "./UserDetails.css";
-import { useState } from "react";
 import { UserState } from "../../context/ContextProvider";
 const UserDetails = () => {
   const { detailsLoading, userDetails, detailsError } = UserState();
