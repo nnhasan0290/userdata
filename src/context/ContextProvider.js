@@ -21,7 +21,7 @@ const ContextProvider = ({ children }) => {
       setLoading(false);
       setUsers(data);
     } catch (error) {
-        setLoading(false);
+      setLoading(false);
       setUserError("User list not found");
     }
   };
@@ -35,8 +35,8 @@ const ContextProvider = ({ children }) => {
       setDetailsLoading(false);
       setUserDetails(data);
     } catch (error) {
-        setDetailsLoading(false);
-        setDetailsError("User Details not found");
+      setDetailsLoading(false);
+      setDetailsError("User Details not found");
     }
   };
   useEffect(() => {
@@ -56,7 +56,7 @@ const ContextProvider = ({ children }) => {
         detailsLoading,
         userDetails,
         usersError,
-        detailsError
+        detailsError,
       }}
     >
       {children}
